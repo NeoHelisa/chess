@@ -1,0 +1,65 @@
+body {
+    background-color: sienna;
+    font-family: Verdana;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#container
+{
+    margin-left:auto;
+    margin-right:auto;
+    min-width:1000px;
+}
+#lewy {
+    float: left;
+    width: 300px;
+    height: 800px;
+    background-color: Sienna;
+    text-align: center;
+}
+
+#baner {
+    width: 100%;
+    height: 180px;
+    background-color: rgb(25, 0, 0);
+    color: white;
+    padding-top: 5px;
+}
+
+#prawy {
+    width:60%;
+    padding:10px;
+    height: 800px;
+    float: left;
+    justify-content: center;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration: none;
+}
+#prawy > img{
+    width: 60%;
+    min-width: 450px;
+}
+
+.tab{
+    background-color: #A47551;
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tab th{
+    color:white; 
+    border:1px solid black;
+}
+.tab td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 12vh;
+}
