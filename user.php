@@ -15,7 +15,7 @@
        $r = mysqli_fetch_assoc($q1);
         if($_POST['pass'] != $r['pass'] || $user != $r['user'])
         {
-            echo "Hasło niepoprawne!";
+            echo "Dane niepoprawne!";
         }
         else
         {
